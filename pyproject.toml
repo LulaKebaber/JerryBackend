@@ -6,7 +6,7 @@ authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.9, <3.13"
 bcrypt = "^4.0.1"
 python-jose = "^3.3.0"
 pydantic= {extras = ["email"], version = "^1.10.4"}
@@ -15,6 +15,14 @@ uvicorn= {extras = ["standard"], version = "^0.20.0"}
 python-multipart = "^0.0.6"
 pymongo = {extras = ["srv"], version = "^4.3.3"}
 orjson = "^3.9.1"
+requests = "^2.31.0"
+langchain = "^0.0.300"
+tiktoken = "^0.5.1"
+huggingface-hub = "^0.17.2"
+numpy = "^1.26.0"
+pandas = "^2.1.1"
+openai = "^0.28.0"
+faiss-cpu = "^1.7.4"
 
 
 [tool.poetry.group.dev.dependencies]
